@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Serif+KR:wght@200&family=Tilt+Neon&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="module" src="./main.js"></script>
+        <title>Tamagotchi</title>
+    </head>
+    <body>
+        <header>TAMAGOTCHI</header>
+        <form>
+            <input type="text" placeholder="Name your tamagotchi" required />
+            <select name="Which tamagotchi" id="">
+                <option value="Kitty">Kitty</option>
+                <option value="Hamster">Hamster</option>
+            </select>
+            <button>Add Tamagotchi</button>
+        </form>
+        <div id="instructions">
+            <h4>
+                Keep your tamagotchis alive by feeding them and playing with
+                them
+            </h4>
+        </div>
+        
+        <div id="container" class="hidden"></div>
+    </body>
+</html>

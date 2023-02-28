@@ -1,0 +1,115 @@
+body {
+    background-color: lightpink;
+    color: black;
+    font-family: "Tilt Neon", cursive;
+}
+
+.container {
+    visibility: visible;
+    border: 5px solid white;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.tamaCard-hamster,
+.tamaCard-kitty {
+    border: 7px solid white;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    padding: 2rem;
+    margin: 2rem;
+    width: 9rem;
+    height: 160px;
+}
+
+.tamaCard-hamster {
+    background-color: lightseagreen;
+}
+
+.tamaCard-kitty {
+    background-color: lightcoral;
+}
+
+header {
+    font-family: "Press Start 2P", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: peachpuff;
+    border: 5px solid white;
+    padding: 20px;
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4 {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 10px;
+}
+
+button {
+    margin: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.dead {
+    background-color: rgba(128, 128, 128, 0.523);
+    border-radius: 80px 80px 0 0;
+}
+
+.dead * {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dead .rip {
+    color: white;
+    font-family: "Noto Serif KR", serif;
+    font-size: 25px;
+}
+
+h5 {
+    margin: 0;
+}
+
+#instructions h4 {
+    font-size: 20px;
+}
+
+.dot {
+    height: 32px;
+    width: 32px;
+    background-color: peachpuff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 9px;
+    margin: 15px;
+}
+
+.btns p {
+    margin: 0;
+}
+
+.screen {
+    background-color: silver;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 0px;
+}
