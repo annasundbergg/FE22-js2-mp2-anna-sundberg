@@ -1,10 +1,11 @@
 # Miniprojekt 2 i kursen Javascript 2
 
 ## Syfte
+Skapa ett spel baserat på en förenklad version av en tamagotchi.  
 Använda moduler, objektorienterad programmering och encapsulation & inheritance.
 
 ## Beskrivning
-Skapa ett spel baserat på en förenklad version av en tamagotchi. 
+
 En användare ska kunna lägga till flera tamagotchis av minst två olika typer och hålla dem vid liv genom att mata och leka med dem.
 
 ## Krav
